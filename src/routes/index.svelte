@@ -57,7 +57,7 @@
 
 
 <div class="relative grid grid-cols-1 md:grid-cols-2 lg:py-0 max-w-5xl p-4 mx-auto mt-8">
-    <div class="mb-4 lg:max-w-lg lg:pr-8 xl:pr-6">
+    <div class="mb-4 lg:max-w-lg lg:pr-12">
         <h2 class="text-base text-primary font-semibold tracking-wide uppercase">{language ? "About me" : "Over mij"}</h2>
       <h2 class="mb-5 mt-2 font-sans text-3xl font-bold tracking-tight text-base-content sm:text-4xl sm:leading-none">
         {language ? "Hi! I'm Koen, and I make websites!" : "Hoi, ik ben Koen!"}
@@ -71,7 +71,7 @@
               <a class="link text-secondary mr-5" href="/https://www.vriendenvoorkika.nl" rel="noopener" target="_blank">Vrienden Voor KiKa</a> 
             </h6>
             <p class="text-sm text-base-content">
-                {language ? "Check out the website for our other events!" : "Kijk op onze website voor onze andere acties!"}
+                {language ? "Together with Thomas, Romy and Sanne, we organize more events! Please take a look at our website." : "Samen met Thomas, Romy en Sanne houden we meer acties voor KiKa! Kijk op onze hoe je kunt helpen."}
             </p>
           </div>
         </div>

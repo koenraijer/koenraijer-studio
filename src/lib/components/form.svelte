@@ -9,7 +9,8 @@
   })
   
 </script>
-<form action="https://kwesforms.com/api/foreign/forms/8K9JcTIBBv2XwSdLxRD0" class="kwes-form col-span-1 max-w-lg form">
+
+<form action="https://kwesforms.com/api/foreign/forms/8K9JcTIBBv2XwSdLxRD0" class="kwes-form form">
 
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">

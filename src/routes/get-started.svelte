@@ -144,14 +144,17 @@
         </dl>
   </div>
   
-  <h2 class=" px-4 sm:px-6 lg:px-8 text-3xl pt-16 font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
-  <p class=" px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Fill in your details, and I'll get back to you as soon as possible!</p>
+    <div class="lg:text-center">
 
-  <div class="grid grid-cols-1 w-full mt-16 gap-x-8 px-8 md:grid-cols-2 content-start">
+    <h2 class=" pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 class=" px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <p class=" px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
-  <Form {language}/>
-
-  <figure class="transform -translate-y-20">
-    <GraphicSuccess/>
-  </figure>
   </div>
+    <div class="mx-auto mt-16 px-8">
+  
+      <Form {language}/>
+  
+
+    </div>
+  

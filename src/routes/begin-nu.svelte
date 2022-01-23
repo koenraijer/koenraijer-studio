@@ -100,10 +100,12 @@
       </figure>
     </div>
   
-    <h2 class="pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">FAQ</h2>
-    <h2 class="px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Praktische vragen</h2>
-    <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">
+    <div class="lg:text-center">
+      <h2 class="pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">FAQ</h2>
+      <h2 class="px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Praktische vragen</h2>
+      <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">
         Omdat u misschien nog een heleboel vragen heeft, probeer ik er hier alvast een aantal te beantwoorden!</p>
+    </div>
     <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="grid grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:pb-32 lg:max-w-7xl lg:px-8 pb-24">
           <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8 text-lg">
@@ -144,16 +146,16 @@
           </dl>
     </div>
     
-    <h2 class="pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
-    <h2 class="px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
-    <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Vul uw gegevens in, en ik reageer zo snel mogelijk!</p>
+    <div class="lg:text-center">
+
+    <h2 class=" pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 class=" px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
+  </div>
+    <div class="mx-auto mt-16 px-8">
   
-    <div class="grid grid-cols-1 w-full mt-16 gap-x-8 px-8 md:grid-cols-2 content-start">
+      <Form {language}/>
   
-    <Form {language}/>
-  
-    <figure class="transform -translate-y-20">
-      <GraphicSuccess/>
-    </figure>
+
     </div>
   
