@@ -1,0 +1,1 @@
+<svg class="fill-current inline h-4 sm:h-5 md:h-6 lg:h-7" height="24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 222"><path d="M128 0l128 221.705H0z"></path></svg>

@@ -1,0 +1,158 @@
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* raleway-800 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* raleway-900 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/raleway-v22-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v22-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v22-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-header;
+    }
+}
+
+@layer components {
+    figcaption {
+        margin-bottom: 3rem;
+    }
+
+    .tooltip:after {
+        background: transparent;
+        content: '';
+        display: block;  
+        position: absolute;
+        left: 50%;
+        top: -14px;
+        transform: rotate(180deg) translateX(70%);
+        width: 0;
+        height: 0;
+        border: 9px solid transparent;
+        border-bottom-color: hsl(var(--s));
+    }
+    .tooltip:before{
+        background: hsl(var(--s));
+        color: hsl(var(--b1));
+        bottom: 150%;
+    }
+
+    input[type="radio"]:checked~span {
+        font-weight: 700;
+        color: hsl(var(--bc))
+      }
+}
+
+@layer utilities {
+    /*
+    :root[data-theme="dark"] .hero-h1 {
+        background: linear-gradient(90deg, #ffffff 0%, #e4f7f4 16%, #c8efe9 33%, #abe7de 50%, #8bded3 66%, #68d6c9 83%, #37cdbe 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    :root[data-theme="light"] .hero-h1 {
+        background: linear-gradient(30deg, #b3e7f9 0%, #a6e2f8 16%, #99dcf7 33%, #8bd7f6 50%, #7cd2f5 66%, #6bccf4 83%, #58c7f3 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    :root[data-theme="dark"] .hero-img:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    }
+*/
+}
+
+/* Theming */
+
+    /* If dark */
+    :root[data-theme="dark"] .dark-hidden {
+        display: none;
+    }
+
+    :root[data-theme="dark"] .light-hidden {
+        display: block;
+    }
+
+    /* If light */
+    :root[data-theme="light"] .dark-hidden {
+        display: block;
+    }
+
+    :root[data-theme="light"] .light-hidden {
+        display: none;
+    }
+
+
