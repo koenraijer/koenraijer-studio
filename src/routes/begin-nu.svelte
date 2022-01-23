@@ -153,24 +153,15 @@
     
     <div class="lg:text-center">
 
-    <h2 class="pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 id="contact" class="pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
     <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen</h2>
     <p class="mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
   </div>
-    <div class="grid grid-col-1 justify-start overflow-y-none lg:justify-center lg:grid-col-3 mt-16">
+    <div class="flex justify-center mt-16">
   
       <div class="col-span-1 col-start-2">
           <Form {language}/>
       </div>
-
-      <svg viewBox="0 0 28 12" fill="" class="col-start-3 lg:block hidden transform rotate-90 fill-base-300 translate-y-60 translate-x-20 h-fit w-fit">
-          <defs>
-            <pattern id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042" x="0" y="0" width=".0675" height=".15">
-              <circle cx="1" cy="1" r=".5"></circle>
-            </pattern>
-          </defs>
-          <rect fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)" width="52" height="24"></rect>
-    </svg>
 
     </div>
   

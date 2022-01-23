@@ -14,6 +14,7 @@
 <script>
 	import Footer from '$lib/components/footer.svelte'
 	import Navbar from '$lib/components/navbar.svelte'
+	import {browser} from '$app/env'
 	import { onMount } from 'svelte'
 	import { themeChange } from 'theme-change'
 	import '../app.css'
@@ -24,6 +25,16 @@
 	onMount(async () => {
 	  themeChange(false)
 	})
+
+	let themeEl;
+	
+	if (browser) {
+		themeEl = document.querySelector("[data-toggle-theme]");
+		
+	}
+
+	$: console.log(themeEl);
+	
 </script>
  
 <svelte:head>
@@ -39,6 +50,10 @@
 	<meta name="twitter:title" content="{$seo.title}">
 
 	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon{themeEl}/site.webmanifest">
 </svelte:head>
 
   <Navbar />

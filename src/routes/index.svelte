@@ -57,7 +57,7 @@
 
 
 <div class="relative grid grid-cols-1 gap-x-5 md:grid-cols-2 lg:grid-cols-3 lg:py-0 max-w-5xl mx-auto mt-8">
-    <svg viewBox="0 0 28 12" fill="" class="lg:block hidden fill-base-300 -mt-20 h-fit w-fit">
+    <svg viewBox="0 0 28 14" fill="" class="lg:block hidden fill-base-300 -mt-20 h-fit w-fit">
           <defs>
             <pattern id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042" x="0" y="0" width=".0675" height=".15">
               <circle cx="1" cy="1" r=".5"></circle>
