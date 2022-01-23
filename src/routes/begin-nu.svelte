@@ -12,14 +12,14 @@
 
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="py-12">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
         <div class="lg:text-center">
           <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Features</h2>
           <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-base-content sm:text-4xl">
             Betaal minder, krijg <i>meer</i> dan genoeg.
           </h1>
           <p class="mt-4 max-w-2xl text-xl text-neutral lg:mx-auto">
-            Bij mij staan  inhoud en functionaliteit op de eerste plek bij het ontwerpen van uw online identiteit, zodat u alle tijd heeft voor uw bedrijf.
+            Bij mij staan  inhoud en functionaliteit op de eerste plek bij het ontwerpen van uw online identiteit, zodat u alle tijd heeft om uw bedrijf te runnen.
           </p>
         </div>
     
@@ -32,7 +32,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
                   </svg>
-                </div>
+                </div>x
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content ">Mooi <i>en</i> functioneel</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral ">
@@ -51,7 +51,7 @@
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content">Betaalbaar</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral ">
-                De prijs van een website begint bij €250,- en loopt op tot €500,- afhankelijk van uw behoefte. Alle opbrengst gaat naar Stichting KiKa. Hoe dan ook ligt mijn prijs ver onder de marktwaarde.  
+                De prijs van een website begint bij €250,- en loopt op tot €500,- afhankelijk van uw wensen. Dat is fors onder de marktwaarde, én alle opbrengst gaat naar Stichting KiKa.
               </dd>
             </div>
     
@@ -66,7 +66,7 @@
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content">Bliksemsnel en veilig</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral">
-                  Ik gebruik SvelteKit om websites mee te bouwen. Dat is sneller en veiliger dan een traditionele WordPress website (<a name="link to WordPress security issue" href="https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/" target="_blank" rel="noopener" class="link text-secondary">recent veiligheidslek</a>). De redenen daarvoor zijn best technisch, maar ik licht ze in een persoonlijk gesprek graag verder toe. 
+                  Ik gebruik Sveltekit. Dat is sneller en beter bestand tegen hacks dan een traditionele Wordpress website (zie dit <a name="link to WordPress security issue" href="https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/" target="_blank" rel="noopener" class="link text-secondary">recente veiligheidslek bij Wordpress</a>). De <i>waarom</i> is iets te technisch om hier uit te leggen, maar face-to-face vertel ik graag verder.
               </dd>
             </div>
     
@@ -81,7 +81,7 @@
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content">Gebruiksvriendelijk</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral">
-                U kunt uw eigen inhoud aanpassen, nieuwsberichten toevoegen, openingstijden veranderen, klanten vertellen dat u op vakantie gaat en meer; allemaal in een simpele Word-achtige tekstverwerker. U hoeft uw handen niet aan code te branden.
+                U kunt uw eigen inhoud aanpassen, nieuwsberichten toevoegen, openingstijden veranderen, klanten vertellen dat u op vakantie gaat en meer; allemaal in een simpele Microsoft Word-achtige tekstverwerker. U hoeft uw handen niet aan code te branden.
               </dd>
             </div>
           </dl>
@@ -92,22 +92,27 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 py-12 sm:py-18 lg:py-24 w-7xl">
       <figure>
         <img src="laptopPreview.png" alt="Desktop view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-xl"><i>Desktop beeld</i>. Elementen zijn groter en herordend om de beschikbare ruimte optimaal te gebruiken. Het menu icoontje rechtsboven is niet nodig. </figcaption>
+        <figcaption class="pl-10 text-lg text-neutral">Op een groot scherm zijn elementen groter en herordend om de beschikbare ruimte optimaal te gebruiken.</figcaption>
       </figure>
       <figure class="">
         <img src="phonePreview.png" alt="Mobile view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-xl"><i>Mobiel beeld</i>. Elementen zijn geoptimaliseerd voor kleine schermen, groot genoeg om op te klikken, en het menu opent zich nu door op het icoontje rechtsboven te klikken.</figcaption>
+        <figcaption class="pl-10 text-lg text-neutral">Op een telefoonscherm wordt alles kleiner, maar gebruikers kunnen er nog altijd makkelijk op klikken. Het menu is nu het icoontje rechtsboven geworden.</figcaption>
+      </figure>
+      <figure class="lg:col-span-2 lg:px-20">
+        <img src="graphCMS.png" alt="Mobile view of my website template." class="rounded-lg">
+        <figcaption class="pl-10 text-lg text-neutral lg:text-center lg:px-20">Met GraphCMS kunt u elke soort inhoud volgens een simpel formulier zelf toevoegen of wijzigen. Net zo gemakkelijk in gebruik als Microsoft Word.
+         </figcaption>
       </figure>
     </div>
   
     <div class="lg:text-center">
-      <h2 class="pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">FAQ</h2>
-      <h2 class="px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Praktische vragen</h2>
-      <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">
+      <h2 class="pt-16 text-base text-primary font-semibold tracking-wide uppercase">FAQ</h2>
+      <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Praktische vragen</h2>
+      <p class="mt-4 text-lg text-neutral">
         Omdat u misschien nog een heleboel vragen heeft, probeer ik er hier alvast een aantal te beantwoorden!</p>
     </div>
     <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="grid grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:pb-32 lg:max-w-7xl lg:px-8 pb-24">
+  <div class="grid grid-cols-1 gap-y-16 gap-x-8 sm:pb-32 lg:max-w-7xl pb-24">
           <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8 text-lg">
             <div class="border-t border-neutral pt-4">
               <dt class="font-medium text-base-content">Ik ben ergens een mooie website tegengekomen, kun je zoiets ook voor mij maken?</dt>
@@ -148,11 +153,11 @@
     
     <div class="lg:text-center">
 
-    <h2 class=" pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
-    <h2 class=" px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
-    <p class="px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
+    <h2 class=" pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <p class="mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
   </div>
-    <div class="mx-auto mt-16 px-8">
+    <div class="mx-auto mt-16">
   
       <Form {language}/>
   

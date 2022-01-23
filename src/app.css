@@ -102,9 +102,32 @@
 }
 
 @layer utilities {
-    /*
     :root[data-theme="dark"] .hero-h1 {
-        background: linear-gradient(90deg, #ffffff 0%, #e4f7f4 16%, #c8efe9 33%, #abe7de 50%, #8bded3 66%, #68d6c9 83%, #37cdbe 100%);
+        background-image: linear-gradient(
+        90deg,
+        hsl(165deg 100% 55%) 0%,
+        hsl(166deg 98% 55%) 5%,
+        hsl(167deg 97% 55%) 10%,
+        hsl(168deg 95% 55%) 15%,
+        hsl(169deg 93% 55%) 20%,
+        hsl(170deg 91% 55%) 25%,
+        hsl(171deg 90% 55%) 30%,
+        hsl(172deg 88% 55%) 35%,
+        hsl(173deg 86% 55%) 40%,
+        hsl(175deg 85% 54%) 44%,
+        hsl(176deg 83% 54%) 49%,
+        hsl(177deg 82% 54%) 54%,
+        hsl(179deg 80% 53%) 59%,
+        hsl(180deg 79% 53%) 64%,
+        hsl(182deg 81% 53%) 69%,
+        hsl(183deg 83% 53%) 73%,
+        hsl(184deg 85% 53%) 78%,
+        hsl(185deg 87% 54%) 83%,
+        hsl(186deg 89% 54%) 87%,
+        hsl(188deg 92% 54%) 92%,
+        hsl(188deg 94% 53%) 96%,
+        hsl(189deg 96% 53%) 100%
+        );
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -114,7 +137,31 @@
     }
 
     :root[data-theme="light"] .hero-h1 {
-        background: linear-gradient(30deg, #b3e7f9 0%, #a6e2f8 16%, #99dcf7 33%, #8bd7f6 50%, #7cd2f5 66%, #6bccf4 83%, #58c7f3 100%);
+        background-image: linear-gradient(
+        90deg,
+        hsl(334deg 100% 50%) 0%,
+        hsl(336deg 96% 55%) 5%,
+        hsl(336deg 91% 56%) 9%,
+        hsl(336deg 86% 58%) 14%,
+        hsl(334deg 81% 58%) 19%,
+        hsl(333deg 75% 58%) 23%,
+        hsl(330deg 70% 59%) 28%,
+        hsl(327deg 64% 58%) 32%,
+        hsl(324deg 58% 58%) 37%,
+        hsl(319deg 52% 58%) 41%,
+        hsl(313deg 46% 57%) 46%,
+        hsl(305deg 40% 57%) 50%,
+        hsl(295deg 38% 57%) 55%,
+        hsl(284deg 42% 60%) 59%,
+        hsl(274deg 45% 62%) 64%,
+        hsl(263deg 50% 64%) 69%,
+        hsl(253deg 55% 66%) 74%,
+        hsl(243deg 60% 68%) 79%,
+        hsl(233deg 69% 67%) 84%,
+        hsl(225deg 79% 65%) 89%,
+        hsl(218deg 88% 61%) 94%,
+        hsl(210deg 96% 53%) 100%
+        );
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -132,7 +179,7 @@
         top: 0;
         background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
     }
-*/
+
 }
 
 /* Theming */

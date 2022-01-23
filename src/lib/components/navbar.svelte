@@ -14,15 +14,9 @@
   >
     <div class="container flex items-center justify-between max-w-7xl mx-auto">
       <div class="flex-1 pl-4 pr-2 lg:pr-4">
-        <a class="text-xl tracking-wide" href="/">Studio Koen</a>
-      </div>
-    <div class="flex items-center p-4 justify-between">
-        <div class="px-2 lg:px-4">
-            <a href="https://www.koenraijer.io/" name="back to main site">&#8624; to koenraijer.io</a>
-        </div>
+        <a class="text-xl tracking-wide" href="/"><span class="text-xs">de</span> Studio <span class="text-xs">van</span> <b>Koen</b></a>
       </div>
 
-  
       <div class="flex items-center p-4 justify-between">
         <div class="px-2 lg:px-4">
           <ThemeSelect aria="theme toggle when Hamburger menu is active"/>

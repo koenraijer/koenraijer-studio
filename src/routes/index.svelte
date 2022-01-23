@@ -42,7 +42,7 @@
 </svelte:head>
 
 <div class="grid place-content-center mt-8">
-<div class="btn-group px-2">
+<div class="btn-group">
     <label class="cursor-pointer text-md px-2">
         <input type="radio" value={true} bind:group={language} name="languages" id="english" class="hidden">
         <span class="text-neutral">EN</span>
@@ -56,8 +56,16 @@
 </div>
 
 
-<div class="relative grid grid-cols-1 md:grid-cols-2 lg:py-0 max-w-5xl p-4 mx-auto mt-8">
-    <div class="mb-4 lg:max-w-lg lg:pr-12">
+<div class="relative grid grid-cols-1 gap-x-5 md:grid-cols-2 lg:grid-cols-3 lg:py-0 max-w-5xl mx-auto mt-8">
+    <svg viewBox="0 0 28 12" fill="" class="lg:block hidden fill-base-300 -mt-20 h-fit w-fit">
+          <defs>
+            <pattern id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042" x="0" y="0" width=".0675" height=".15">
+              <circle cx="1" cy="1" r=".5"></circle>
+            </pattern>
+          </defs>
+          <rect fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)" width="52" height="24"></rect>
+    </svg>
+    <div class="mb-4 lg:col-start-2 lg:max-w-lg lg:pr-12">
         <h2 class="text-base text-primary font-semibold tracking-wide uppercase">{language ? "About me" : "Over mij"}</h2>
       <h2 class="mb-5 mt-2 font-sans text-3xl font-bold tracking-tight text-base-content sm:text-4xl sm:leading-none">
         {language ? "Hi! I'm Koen, and I make websites!" : "Hoi, ik ben Koen!"}
@@ -66,20 +74,20 @@
         {language ? "As a Naar De Top Voor KiKa participant, I will make your next website for charity! Are you an entrepreneur or do you one who hasn't got a proper website yet? Let's drink a cup of coffee together.": "Als deelnemer van Naar De Top Voor KiKa maak ik het komende jaar websites voor het goede doel! Ben je of ken je een ondernemer die nog geen (goede) website heeft? Laten we dan eens een kop koffie drinken!"}
       </p>
         <div class="bg-base-200 rounded-xl shadow-sm shadow-sm">
-          <div class="h-full p-5 border border-l-0 rounded-r">
+          <div class="h-full p-5 rounded-r">
             <h6 class="mb-2 font-semibold leading-5">
               <a class="link text-secondary mr-5" href="/https://www.vriendenvoorkika.nl" rel="noopener" target="_blank">Vrienden Voor KiKa</a> 
             </h6>
             <p class="text-sm text-base-content">
-                {language ? "Together with Thomas, Romy and Sanne, we organize more events! Please take a look at our website." : "Samen met Thomas, Romy en Sanne houden we meer acties voor KiKa! Kijk op onze hoe je kunt helpen."}
+                {language ? "Together with Thomas, Romy and Sanne, we organize more events! Please take a look at our website." : "Samen met Thomas, Romy en Sanne houden we meer acties voor KiKa! Kijk op onze website hoe je kunt helpen."}
             </p>
           </div>
         </div>
     </div>
 
-    <figure class="ml-auto mr-0">
+    <figure class="">
         <img
-      class="object-cover rounded-xl shadow-lg lg:shadow-none"
+      class="object-cover col-span-1 rounded-xl shadow-lg lg:shadow-none"
       src="{authors[0].picture.url}"
       alt="{authors[0].name}"
         />

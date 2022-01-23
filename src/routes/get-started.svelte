@@ -12,7 +12,7 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto ">
       <div class="lg:text-center">
         <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Web design</h2>
         <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-base-content sm:text-4xl">
@@ -33,7 +33,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
                 </svg>
               </div>
-              <p class="ml-16 text-xl leading-6 font-medium text-base-content ">Pretty <i>and</i> functional</p>
+              <p class="ml-16 text-xl leading-6 font-medium text-base-content ">Elegant <i>and</i> functional</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-neutral ">
               My designs are modern, sleek, and optimized for use on mobile devices. Because more than 50% of website visitors are on mobile, that is the way to go.
@@ -48,10 +48,10 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                 </svg>
               </div>
-              <p class="ml-16 text-xl leading-6 font-medium text-base-content">Cheap</p>
+              <p class="ml-16 text-xl leading-6 font-medium text-base-content">Economical</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-neutral ">
-              Pricing starts at €250,- and can rise to €500,- depending on your needs. All your money goes to the KiKa Foundation. Regardless, this is a lot cheaper than most other options.
+              Pricing starts at €250,- and can rise to €500,- depending on your wishes. That's way below market value, <i>and</i> all proceeds go to the KiKa Foundation.
             </dd>
           </div>
   
@@ -66,7 +66,7 @@
               <p class="ml-16 text-xl leading-6 font-medium text-base-content">Blazing fast and secure</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-neutral">
-              I use SvelteKit to build websites, which is both faster and more secure than a traditional WordPress website (<a name="link to WordPress security issue" href="https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/" target="_blank" rel="noopener" class="link text-secondary">recent security hazard</a>). The reasons for that are pretty technical, but I'll be happy to explain why in person.
+              I use SvelteKit, which is both faster and more secure than a traditional WordPress website (a <a name="link to WordPress security issue" href="https://www.bleepingcomputer.com/news/security/over-90-wordpress-themes-plugins-backdoored-in-supply-chain-attack/" target="_blank" rel="noopener" class="link text-secondary">recent security breach</a>). I'll be happy to explain my reasoning for that to you in person.
             </dd>
           </div>
   
@@ -92,19 +92,26 @@
   <div class="grid grid-cols-1 lg:grid-cols-2 py-12 sm:py-18 lg:py-24 w-7xl">
     <figure>
       <img src="laptopPreview.png" alt="Desktop view of my website template." class="rounded-lg">
-      <figcaption class="pl-10 text-xl"><i>Desktop view</i>. Page elements are enlarged and rearranged to make use of available space. The menu icon is no longer necessary.</figcaption>
+      <figcaption class="pl-10 text-lg text-neutral">On a big screen, elements are enlarged and rearranged to make optimal use of the available space.</figcaption>
     </figure>
     <figure class="">
       <img src="phonePreview.png" alt="Mobile view of my website template." class="rounded-lg">
-      <figcaption class="pl-10 text-xl"><i>Mobile view</i>. Page elements are optimized for small screens, the menu is the icon in the top right.</figcaption>
+      <figcaption class="pl-10 text-lg text-neutral">On mobile, things become smaller, while staying easily clickable on touchscreen. The menu has become the icon in the top right.</figcaption>
+    </figure>
+          <figure class="lg:col-span-2 lg:pt-10 lg:px-20">
+        <img src="graphCMS.png" alt="Mobile view of my website template." class="rounded-lg">
+        <figcaption class="pl-10 text-lg text-neutral lg:text-center lg:px-20">With GraphCMS, adding or editing content feels like filling in a form. Just as easy as Microsoft Word.
+         </figcaption>
     </figure>
   </div>
 
-
-  <h2 class="text-3xl px-4 sm:px-6 lg:px-8 pt-16 font-extrabold tracking-tight text-base-content sm:text-4xl">Practical questions</h2>
-  <p class="mt-4 px-4 sm:px-6 lg:px-8 text-lg text-neutral">You may be left with a lot of questions, I'll try to answer some of them here!</p>
+  <div class="lg:text-center">
+  <h2 class="pt-16 text-base text-primary font-semibold tracking-wide uppercase">FAQ</h2>
+  <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Practical questions</h2>
+  <p class="mt-4 text-lg text-neutral">You may be left with a lot of questions, I'll try to answer some of them here!</p>
+  </div>
   <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="grid grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:pb-32 lg:max-w-7xl lg:px-8 pb-24">
+<div class="grid grid-cols-1 gap-y-16 gap-x-8 sm:pb-32 lg:max-w-7xl pb-24">
         <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8 text-lg">
           <div class="border-t border-neutral pt-4">
             <dt class="font-medium text-base-content">I've seen a pretty website, can you make that for me?</dt>
@@ -146,12 +153,12 @@
   
     <div class="lg:text-center">
 
-    <h2 class=" pt-16 px-4 sm:px-6 lg:px-8 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
-    <h2 class=" px-4 sm:px-6 lg:px-8 text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
-    <p class=" px-4 sm:px-6 lg:px-8 mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
+    <h2 class=" pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 class=" text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <p class="  mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
   </div>
-    <div class="mx-auto mt-16 px-8">
+    <div class="mx-auto mt-16 ">
   
       <Form {language}/>
   
