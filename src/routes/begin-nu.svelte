@@ -157,7 +157,7 @@
     <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen</h2>
     <p class="mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
   </div>
-    <div class="grid grid-col-1 justify-start lg:justify-center lg:grid-col-3 mt-16">
+    <div class="grid grid-col-1 justify-start overflow-y-none lg:justify-center lg:grid-col-3 mt-16">
   
       <div class="col-span-1 col-start-2">
           <Form {language}/>

@@ -5,8 +5,6 @@
 
     let active = "text-secondary"
     let inactive = "text-base-content"
-
-    export let language = false;
     
   </script>
   <div

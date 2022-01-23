@@ -158,9 +158,9 @@
     <p class="  mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
   </div>
-    <div class="grid grid-col-1 justify-start lg:justify-center lg:grid-col-3 mt-16">
+    <div class="grid grid-col-1 justify-start overflow-y-none lg:justify-center lg:grid-col-3 mt-16">
   
-      <div class="col-span-1 col-start-2">
+      <div class="col-span-1 col-start-2 w-full">
           <Form {language}/>
       </div>
 

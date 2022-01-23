@@ -43,7 +43,7 @@
 
   <Navbar />
 {#key currentRoute}
-  <main class="container max-w-7xl mx-auto px-4 mb-20 flex flex-col min-h-screen overflow-x-hidden" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
+  <main class="container max-w-7xl mx-auto px-4 mb-20 flex flex-col min-h-screen overscroll-y-none overflow-x-hidden" in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
 	<slot />
   </main>
 {/key}
