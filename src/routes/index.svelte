@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-    <title>Home | {$seo.title} </title>
+    <title>{$seo.title} </title>
 </svelte:head>
 
 <div class="grid place-content-center mt-8">
@@ -71,7 +71,7 @@
         {language ? "Hi! I'm Koen, and I make websites!" : "Hoi, ik ben Koen!"}
       </h2>
       <p class="mb-5 text-base text-base-content md:text-lg">
-        {language ? "As a Naar De Top Voor KiKa participant, I will make your next website for charity! Are you an entrepreneur or do you one who hasn't got a proper website yet? Let's drink a cup of coffee together.": "Als deelnemer van Naar De Top Voor KiKa maak ik het komende jaar websites voor het goede doel! Ben je of ken je een ondernemer die nog geen (goede) website heeft? Laten we dan eens een kop koffie drinken!"}
+        {language ? "As a Naar De Top Voor KiKa participant, I will make your next website for charity! Are you an entrepreneur or do you one who hasn't got a proper website yet? Let's drink a cup of coffee together.": "Als deelnemer van Naar De Top Voor KiKa maak ik het komende jaar websites voor het goede doel! Ben je of ken je een ondernemer die nog geen (goede) website heeft? Laten we dan snel een kopje koffie drinken!"}
       </p>
         <div class="bg-base-200 rounded-xl shadow-sm shadow-sm">
           <div class="h-full p-5 rounded-r">

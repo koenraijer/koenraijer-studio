@@ -92,15 +92,15 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 py-12 sm:py-18 lg:py-24 w-7xl">
       <figure>
         <img src="laptopPreview.png" alt="Desktop view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-lg text-neutral">Op een groot scherm zijn elementen groter en herordend om de beschikbare ruimte optimaal te gebruiken.</figcaption>
+        <figcaption class="text-center text-lg text-neutral">Op een groot scherm zijn elementen groter en herordend om de beschikbare ruimte optimaal te gebruiken.</figcaption>
       </figure>
       <figure class="">
         <img src="phonePreview.png" alt="Mobile view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-lg text-neutral">Op een telefoonscherm wordt alles kleiner, maar gebruikers kunnen er nog altijd makkelijk op klikken. Het menu is nu het icoontje rechtsboven geworden.</figcaption>
+        <figcaption class="text-center text-lg text-neutral">Op een telefoonscherm wordt alles kleiner, maar gebruikers kunnen er nog altijd makkelijk op klikken. Het menu is nu het icoontje rechtsboven geworden.</figcaption>
       </figure>
-      <figure class="lg:col-span-2 lg:px-20">
+      <figure class=" lg:col-span-2 lg:px-20">
         <img src="graphCMS.png" alt="Mobile view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-lg text-neutral lg:text-center lg:px-20">Met GraphCMS kunt u elke soort inhoud volgens een simpel formulier zelf toevoegen of wijzigen. Net zo gemakkelijk in gebruik als Microsoft Word.
+        <figcaption class="text-lg text-neutral text-center lg:px-20">Met GraphCMS kunt u elke soort inhoud volgens een simpel formulier zelf toevoegen of wijzigen. Net zo gemakkelijk in gebruik als Microsoft Word.
          </figcaption>
       </figure>
     </div>
@@ -142,7 +142,7 @@
     
             <div class="border-t border-neutral pt-4">
               <dt class="font-medium text-base-content">Waarom is de hosting gratis?</dt>
-              <dd class="mt-2 text-neutral">Ik gebruik GraphCMS en Vercel. Allebei bieden ze ruime gratis pakketten aan. Het enige waar u voor betaalt is de domeinnaam, waarvan de prijzen bij zo'n €7,- per jaar beginnen.</dd>
+              <dd class="mt-2 text-neutral">Ik gebruik GraphCMS en Vercel. Beiden hebben zeer ruime gratis abonnementen. U betaalt dus alleen een paar euro per jaar voor de domeinnaam.</dd>
             </div>
             <div class="border-t border-neutral pt-4">
                 <dt class="font-medium text-base-content">Kan ik ergens een voorbeeld bekijken?</dt>
@@ -153,14 +153,24 @@
     
     <div class="lg:text-center">
 
-    <h2 class=" pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
-    <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <h2 class="pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
+    <h2 class="text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen</h2>
     <p class="mt-4 text-lg text-neutral">Bent u overtuigd, heeft u nog vragen of wilt u een vrijblijvend gesprek? Stuur een berichtje, en ik reageer zo snel mogelijk!</p>
   </div>
-    <div class="mx-auto mt-16">
+    <div class="grid grid-col-1 justify-start lg:justify-center lg:grid-col-3 mt-16">
   
-      <Form {language}/>
-  
+      <div class="col-span-1 col-start-2">
+          <Form {language}/>
+      </div>
+
+      <svg viewBox="0 0 28 12" fill="" class="col-start-3 lg:block hidden transform rotate-90 fill-base-300 translate-y-60 translate-x-20 h-fit w-fit">
+          <defs>
+            <pattern id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042" x="0" y="0" width=".0675" height=".15">
+              <circle cx="1" cy="1" r=".5"></circle>
+            </pattern>
+          </defs>
+          <rect fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)" width="52" height="24"></rect>
+    </svg>
 
     </div>
   

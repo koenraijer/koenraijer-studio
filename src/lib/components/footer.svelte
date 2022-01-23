@@ -5,14 +5,14 @@ import YoutubeIcon from "./svg/youtube-icon.svelte";
 
 </script>
 
-<footer class="items-center p-10 footer bg-base-200 text-base-content">
+<footer class="items-center px-4 py-8 footer bg-base-100 text-base-content">
   <div class="container flex items-center max-w-7xl mx-auto justify-between ">
     <div class="items-center flex">
-      <p><b>&copy; Studio Koen</b> {`${new Date().getFullYear()}`}.</p>
+      <p>&copy; {`${new Date().getFullYear()}`} <span class="text-xs">de</span> Studio <span class="text-xs">van</span> <b>Koen</b>.</p>
     </div> 
 
     <div class="px-2 lg:px-4">
-            <a href="https://www.koenraijer.io/" name="back to main site">&#8624; to koenraijer.io</a>
+            <a href="https://www.koenraijer.io/" name="back to main site">&#8624; koenraijer.io</a>
     </div>
   </div>
 </footer>

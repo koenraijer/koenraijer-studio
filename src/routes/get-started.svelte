@@ -92,15 +92,15 @@
   <div class="grid grid-cols-1 lg:grid-cols-2 py-12 sm:py-18 lg:py-24 w-7xl">
     <figure>
       <img src="laptopPreview.png" alt="Desktop view of my website template." class="rounded-lg">
-      <figcaption class="pl-10 text-lg text-neutral">On a big screen, elements are enlarged and rearranged to make optimal use of the available space.</figcaption>
+      <figcaption class="text-center text-lg text-neutral">On a big screen, elements are enlarged and rearranged to make optimal use of the available space.</figcaption>
     </figure>
     <figure class="">
       <img src="phonePreview.png" alt="Mobile view of my website template." class="rounded-lg">
-      <figcaption class="pl-10 text-lg text-neutral">On mobile, things become smaller, while staying easily clickable on touchscreen. The menu has become the icon in the top right.</figcaption>
+      <figcaption class="text-center text-lg text-neutral">On mobile, things become smaller, while staying easily clickable on touchscreen. The menu has become the icon in the top right.</figcaption>
     </figure>
           <figure class="lg:col-span-2 lg:pt-10 lg:px-20">
         <img src="graphCMS.png" alt="Mobile view of my website template." class="rounded-lg">
-        <figcaption class="pl-10 text-lg text-neutral lg:text-center lg:px-20">With GraphCMS, adding or editing content feels like filling in a form. Just as easy as Microsoft Word.
+        <figcaption class="text-center text-lg text-neutral lg:text-center lg:px-20">With GraphCMS, adding or editing content feels like filling in a form. Just as easy as Microsoft Word.
          </figcaption>
     </figure>
   </div>
@@ -141,7 +141,7 @@
   
           <div class="border-t border-neutral pt-4">
             <dt class="font-medium text-base-content">Why is hosting free?</dt>
-            <dd class="mt-2 text-neutral">I use GraphCMS and Vercel, which offer very lenient free plans. All you pay for is the domain name, which starts at about €7,- a year.</dd>
+            <dd class="mt-2 text-neutral">I use GraphCMS and Vercel, which offer extensive free plans. All you pay for is the domain name, which costs a couple of euros a year.</dd>
           </div>
 
           <div class="border-t border-neutral pt-4">
@@ -158,10 +158,20 @@
     <p class="  mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
   </div>
-    <div class="mx-auto mt-16 ">
+    <div class="grid grid-col-1 justify-start lg:justify-center lg:grid-col-3 mt-16">
   
-      <Form {language}/>
-  
+      <div class="col-span-1 col-start-2">
+          <Form {language}/>
+      </div>
+
+      <svg viewBox="0 0 28 12" fill="" class="col-start-3 lg:block hidden transform rotate-90 fill-base-300 translate-y-60 translate-x-20 h-fit w-fit">
+          <defs>
+            <pattern id="6b0188f3-b7a1-4e9b-b95e-cad916bb3042" x="0" y="0" width=".0675" height=".15">
+              <circle cx="1" cy="1" r=".5"></circle>
+            </pattern>
+          </defs>
+          <rect fill="url(#6b0188f3-b7a1-4e9b-b95e-cad916bb3042)" width="52" height="24"></rect>
+    </svg>
 
     </div>
   
