@@ -154,7 +154,7 @@
     <div class="lg:text-center">
 
     <h2 id="contact" class=" pt-16 text-base text-primary font-semibold tracking-wide uppercase">Contact</h2>
-    <h2 class=" text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen ✨</h2>
+    <h2 class=" text-3xl font-extrabold tracking-tight text-base-content sm:text-4xl">Let's make it happen</h2>
     <p class="  mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
   </div>
