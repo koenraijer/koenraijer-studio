@@ -76,7 +76,7 @@
         <div class="bg-base-200 rounded-xl shadow-sm shadow-sm">
           <div class="h-full p-5 rounded-r">
             <h6 class="mb-2 font-semibold leading-5">
-              <a class="link text-secondary mr-5" href="/https://www.vriendenvoorkika.nl" rel="noopener" target="_blank">Vrienden Voor KiKa</a> 
+              <a class="link text-secondary mr-5" href="https://www.vriendenvoorkika.nl" rel="noopener" target="_blank">Vrienden Voor KiKa</a> 
             </h6>
             <p class="text-sm text-base-content">
                 {language ? "Together with Thomas, Romy and Sanne, we organize more events! Please take a look at our website." : "Samen met Thomas, Romy en Sanne houden we meer acties voor KiKa! Kijk op onze website hoe je kunt helpen."}
