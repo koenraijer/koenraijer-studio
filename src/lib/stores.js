@@ -2,6 +2,6 @@
 
  export const seo = writable({
             title: "de Studio van Koen", 
-            description: "I offer beautiful web design solutions for economical prices, where all proceeds go to charity.",
+            description: "Beautiful and functional web design for charity.",
             openGraphURL: '',
         });

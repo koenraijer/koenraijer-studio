@@ -1,7 +1,7 @@
 import { client } from '$lib/graphql-client'
 import { gql } from 'graphql-request'
 
-const website = 'https://www.koenraijer.com/'
+const website = 'https://studio.koenraijer.io/'
 
 export const get = async () => {
   const query = gql`

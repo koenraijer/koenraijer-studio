@@ -1,36 +1,5 @@
-<script context="module">
-    import Hero from '$lib/components/hero.svelte'
-    import Author from '@components/author.svelte'
-    /* import gql, and {client} 
-        - gql creates our query
-        - the client takes our query and returns data inside of a const.
-    */
-    import {client} from '$lib/graphql-client'
-    import { authorsQuery } from '$lib/graphql-queries'
-
-    export const load = async () => {        
-
-        // 2. Give that query to the GraphQL client.
-        const [authorsReq] = await Promise.all([
-            client.request(authorsQuery),
-        ])
-
-        const {authors} = authorsReq
-
-        // 3. Return that data to the <script> tag
-        return {
-            props: {
-                authors,
-            },
-        }
-    }  
-</script>
-
 <script>
-    import {marked} from 'marked'
-    import {page} from '$app/stores'
-    // 4. Export the data for use in the page
-    export let authors
+    import Hero from '$lib/components/hero.svelte'
     import {seo} from '@lib/stores.js'
 
     let language = false; // True is equal to English 
@@ -88,8 +57,8 @@
     <figure class="">
         <img
       class="object-cover col-span-1 rounded-xl shadow-lg lg:shadow-none"
-      src="{authors[0].picture.url}"
-      alt="{authors[0].name}"
+      src="avatar.webp"
+      alt="Koen"
         />
     </figure>
 </div>

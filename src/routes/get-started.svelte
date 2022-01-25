@@ -1,5 +1,4 @@
 <script>
-  import GraphicSuccess from "$lib/components/svg/graphic-success.svelte";
   import Form from '$lib/components/form.svelte'
   import {seo} from '@lib/stores.js'
   let language = true;
