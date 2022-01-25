@@ -1,10 +1,5 @@
 <script>
     import ThemeSelect from './theme-select.svelte'
-    import GithubIcon from '$lib/components/svg/github-icon.svelte'
-    import { page } from '$app/stores';
-
-    let active = "text-secondary"
-    let inactive = "text-base-content"
     
   </script>
   <div

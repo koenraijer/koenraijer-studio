@@ -10,10 +10,10 @@
   
 </script>
 
-<form action="https://kwesforms.com/api/foreign/forms/8K9JcTIBBv2XwSdLxRD0" class="kwes-form w-fit">
+<form action="https://kwesforms.com/api/foreign/forms/8K9JcTIBBv2XwSdLxRD0" class="kwes-form w-full form">
 
     <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+      <div class="w-full px-3 mb-6 md:mb-0">
         <label class="block uppercase tracking-wide text-neutral text-xs font-bold mb-2" rules="required|max:255" for="name">
             {language ? "Name" : "Naam"}
         </label>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full md:w-1/2 px-3">
+      <div class="w-full px-3">
         <label class="block uppercase tracking-wide text-neutral text-xs font-bold mb-2" for="email">
           E-mail
         </label>
