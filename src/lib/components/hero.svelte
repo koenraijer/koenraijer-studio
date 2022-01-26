@@ -26,7 +26,7 @@
             <p class="mb-5 text-left lg:text-left sm:text-center prose-xl max-w-xl mx-auto lg:mx-0">
                 {language ? "I build practical and affordable websites for small businesses using modern technologies." : "Ik bouw praktische en betaalbare websites voor kleine ondernemers met de nieuwste technologie."}
             </p> 
-            <a href="/{language ? "begin-nu#contact" : "get-started#contact"}" class="btn btn-outline outline-neutral border-neutral mr-4 text-lg text-neutral hover:bg-neutral mb-5">
+            <a href="/{language ? "get-started#contact" : "begin-nu#contact"}" class="btn btn-outline outline-neutral border-neutral mr-4 text-lg text-neutral hover:bg-neutral mb-5">
                 Contact
             </a>
             <a href="/{language ? "get-started" : "begin-nu"}" class="btn btn-primary  text-lg text-base-100 mb-5">

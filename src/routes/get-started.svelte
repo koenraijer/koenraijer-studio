@@ -35,7 +35,7 @@
               <p class="ml-16 text-xl leading-6 font-medium text-base-content ">Elegant and functional</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-neutral ">
-              My designs are modern, sleek, and optimized for use on mobile devices. With more than 50% of visitors being on mobile, that's the way to go!
+              My designs are sleek, customized, and optimized for use on mobile devices. With more than 50% of visitors being on mobile, that's the way to go!
             </dd>
           </div>
   
@@ -119,7 +119,7 @@
   
           <div class="border-t border-neutral pt-4">
             <dt class="font-medium text-base-content">I'm convinced, but how do we proceed?</dt>
-            <dd class="mt-2 text-neutral">We'll discuss your needs physically or online, and I'll make you an offer. Then I'll build a prototype and tweak it until you're satisfied. I'll make sure you understand how to use it before delivery.</dd>
+            <dd class="mt-2 text-neutral">We'll discuss your needs physically or online, and I'll build you a prototype. After we've made a deal, I'll tweak the design until you're satisfied. Before delivery, I'll make sure you understand how everything works.</dd>
           </div>
   
           <div class="border-t border-neutral pt-4">
@@ -145,7 +145,7 @@
 
           <div class="border-t border-neutral pt-4">
             <dt class="font-medium text-base-content">Kan I see a website example?</dt>
-            <dd class="mt-2 text-neutral">Of course :) Here is the <a href="https://boilerplate-nine-cyan.vercel.app/" class="link text-secondary" target="_blank" rel="noopener">demo</a> from the images that came before. See how it works in practice! </dd>
+            <dd class="mt-2 text-neutral">Of course :) Here is the <a href="https://boilerplate-nine-cyan.vercel.app/" class="link text-secondary" target="_blank" rel="noopener">demo</a> that was shown in the images above. Check out how it works in practice! </dd>
           </div>
         </dl>
   </div>

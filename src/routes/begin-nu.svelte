@@ -35,7 +35,7 @@
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content ">Mooi en functioneel</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral ">
-                Mijn ontwerp is modern, strak en geoptimaliseerd voor gebruik op mobiele telefoons. In een wereld waarin meer dan 50% van het surfen op telefoons gebeurd is dat erg belangrijk!
+                Mijn ontwerp is modern, op maat gemaakt en geoptimaliseerd voor gebruik op mobiele telefoons. In een wereld waarin meer dan 50% van het surfen op telefoons gebeurd is dat erg belangrijk!
               </dd>
             </div>
     
@@ -50,7 +50,7 @@
                 <p class="ml-16 text-xl leading-6 font-medium text-base-content">Betaalbaar</p>
               </dt>
               <dd class="mt-2 ml-16 text-base text-neutral ">
-                De prijs van een website begint bij €250,- en loopt op tot €500,- afhankelijk van uw wensen. Dat is fors onder de marktwaarde, én alle opbrengst gaat naar Stichting KiKa.
+                De prijs van een website begint bij €250,- en loopt op tot €500,- afhankelijk van uw wensen (naar draagkracht kan in overleg ook!). Dat is fors onder de marktwaarde, én alle opbrengst gaat naar Stichting KiKa.
               </dd>
             </div>
     
@@ -120,7 +120,7 @@
     
             <div class="border-t border-neutral pt-4">
               <dt class="font-medium text-base-content">Ik wil een website, hoe gaat dat nu verder?</dt>
-              <dd class="mt-2 text-neutral">We zullen fysiek of online in gesprek gaan over uw wensen, en dan doe ik u een aanbod. Vervolgens bouw ik een prototype, wat ik in overleg met u aanpas totdat u tevreden bent. Voordat ik de websit aflever, zorg ik dat u begrijpt hoe u zelf dingen aanpast.</dd>
+              <dd class="mt-2 text-neutral">We zullen fysiek of online in gesprek gaan over uw wensen en vervolgens bouw ik een prototype voor u. Nadat we een prijs overeengekomen zijn, pas ik het ontwerp aan totdat u tevreden bent. Voordat ik de website aflever, zorg ik dat u begrijpt hoe u alles werkt.</dd>
             </div>
     
             <div class="border-t border-neutral pt-4">
@@ -145,7 +145,7 @@
             </div>
             <div class="border-t border-neutral pt-4">
                 <dt class="font-medium text-base-content">Kan ik ergens een voorbeeld bekijken?</dt>
-                <dd class="mt-2 text-neutral">Natuurlijk :) Hier is een <a href="https://boilerplate-nine-cyan.vercel.app/" class="link text-secondary" target="_blank" rel="noopener">demo</a> van het voorbeeld in de afbeeldingen hiervoor. Kijk maar eens hoe het allemaal in het echt werkt!</dd>
+                <dd class="mt-2 text-neutral">Natuurlijk :) Hier is de <a href="https://boilerplate-nine-cyan.vercel.app/" class="link text-secondary" target="_blank" rel="noopener">demo</a> uit de afbeeldingen van hierboven. Kijk maar eens hoe het allemaal werkt!</dd>
               </div>
           </dl>
     </div>
