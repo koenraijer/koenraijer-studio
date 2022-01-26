@@ -50,7 +50,7 @@
               <p class="ml-16 text-xl leading-6 font-medium text-base-content">Economical</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-neutral ">
-              Pricing starts at €250,- and can rise to €500,- depending on your wishes. That's way below market value, and additionally, all proceeds go to the KiKa Foundation.
+              Pricing starts at €250,- and can rise to €500,- depending on your wishes (another price based on carrying capacity is also possible). That's way below market value, and additionally, all proceeds go to the KiKa Foundation.
             </dd>
           </div>
   
