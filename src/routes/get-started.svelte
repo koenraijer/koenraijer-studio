@@ -157,11 +157,10 @@
     <p class="  mt-4 text-lg text-neutral">Whether you're already convinced, have more questions or want to talk; send a message and I'll get back to you as soon as possible!</p>
 
   </div>
-      <div class="flex justify-center mt-16">
+  <div class="lg:w-2/6 mx-auto w-full mt-16">
   
-      <div class="col-span-1 col-start-2">
-          <Form {language}/>
-      </div>
-
+    <div class="">
+        <Form {language}/>
     </div>
-  
+
+  </div>
