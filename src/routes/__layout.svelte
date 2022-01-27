@@ -45,9 +45,7 @@
 	<meta property="og:image" content="{$seo.openGraphURL}">
 	<meta property="og:description" content="{$seo.description}">
 	<meta property="og:title" content="{$seo.title}">
-	<!--
-	<meta property='og:url' content='//www.example.com/URL of the article'/>
-	-->
+	<meta property='og:url' content='https://studio.koenraijer.io/'>
 
 	<!--Twitter-->
 	<meta name="twitter:title" content="{$seo.title}">
