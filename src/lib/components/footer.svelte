@@ -12,7 +12,6 @@ import YoutubeIcon from "./svg/youtube-icon.svelte";
     </div> 
 
     <div class="px-2 lg:px-4">
-            <a href="https://www.koenraijer.io/" name="back to main site">&#8624; koenraijer.io</a>
     </div>
   </div>
 </footer>
