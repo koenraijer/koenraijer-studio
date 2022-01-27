@@ -56,7 +56,7 @@
 
     <figure class="">
         <img
-      class="object-cover col-span-1 rounded-xl shadow-lg lg:shadow-none"
+      class="object-cover col-span-1 transform translate-y-8 rounded-xl shadow-lg lg:shadow-none"
       src="avatar.webp"
       alt="Koen"
         />

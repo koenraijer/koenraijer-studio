@@ -37,31 +37,28 @@
         <div class="col-span-1 sm:mx-auto sm:p-5 pr-0 pt-10">
             <table class="block sm:hidden lg:block text-xl">
                 <tr>
-                    <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                    <td class="text-secondary text-3xl"><Checkmark/></td>
                     <td>{language ? "All proceeds go to the KiKa Foundation" : "100% van de opbrengst gaat naar Stichting KiKa"} 
-                        <span class="tooltip tooltip-secondary tooltip-top" data-tip="{language ? "Stichting Kinderen Kankervrij helps fund research for treating cancer in children" : "Stichting KiKa financiert onderzoek naar behandelingen voor kinderkanker."}">
-                            <svg class="w-5 h-5 inline transform -translate-x-1 -translate-y-2 stroke-secondary"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        </span>
                     </td>
                 </tr>
                 <tr>
-                    <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                    <td class="text-secondary text-3xl"><Checkmark/></td>
                     <td>{language ? "Beautiful yet functional" : "Mooi én functioneel"}</td>
                 </tr>
                 <tr>
-                    <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                    <td class="text-secondary text-3xl"><Checkmark/></td>
                     <td>{language ? "Blazing fast and secure" : "Bliksemsnel en superveilig"}
                         
                     </td>
                 </tr>
                 <tr>
-                    <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                    <td class="text-secondary text-3xl"><Checkmark/></td>
                     <td>{language ? "User-friendly without technical knowledge" : "Gebruiksvriendelijk zonder technische kennis"}
                         </td>
                 </tr>
 
                 <tr>
-                    <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                    <td class="text-secondary text-3xl"><Checkmark/></td>
                     <td>
                         {language ? "Free hosting" : "Gratis hosting"}
                     </td>
@@ -71,7 +68,7 @@
                 <div>
                     <table class="mr-5 text-xl">
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>{language ? "All proceeds go to the KiKa Foundation" : "Alle opbrengst gaat naar Stichting KiKa"} 
                                 <span class="tooltip tooltip-secondary tooltip-top" data-tip="{language ? "Stichting Kinderen Kankervrij helps fund research for treating cancer in children" : "Stichting KiKa financiert onderzoek naar behandelingen voor kinderkanker."}">
                                     <svg class="w-5 h-5 inline transform -translate-x-1 -translate-y-2 stroke-secondary"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -79,11 +76,11 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>Mobile-first design</td>
                         </tr>
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>{language ? "Intuitive content editor" : "Makkelijk zelf website aanpassen"}
                                 </td>
                         </tr>
@@ -92,19 +89,19 @@
                 <div>
                     <table class="text-xl">
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>{language ? "Blazing fast" : "Bliksemsnel"}
                                 
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>
                                 {language ? "Free hosting" : "Gratis hosting"}
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-accent-focus text-3xl"><Checkmark/></td>
+                            <td class="text-secondary text-3xl"><Checkmark/></td>
                             <td>Volledig toegankelijk (accessibility)</td>
                         </tr>
                     </table>
